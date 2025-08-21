@@ -17,6 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.11.4" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.2.1" />
+  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.3" />
+  <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+  <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.1.2" />
+  <PackageReference Include="Npgsql" Version="8.0.3" />
+  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2" />
+  <PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.1" />
     <ProjectReference Include="../MoveBangladesh.Domain/MoveBangladesh.Domain.csproj" />
     <ProjectReference Include="../MoveBangladesh.Processor/MoveBangladesh.Processor.csproj" />
     <ProjectReference Include="../MoveBangladesh.PushService/MoveBangladesh.PushService.csproj" />
